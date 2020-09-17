@@ -58,25 +58,25 @@ class Timer extends Component {
   render() {
     const { days, hours, minutes, seconds, expired } = this.state;
     if (expired) {
-      return <div className="expired">Acara Telah Berlangsung</div>;
+      return <div style={{fontSize: "20px", color: "rgb(126, 49, 49)", border: "1px solid rgb(126, 49, 49)", padding: "20px"}}>Acara Telah Berlangsung</div>;
     }
     return (
-      <div className="timer">
-        <div>
+      <div style={{fontSize: "20px", display: "flex", fontSize: "20px", justifyContent: "center"}}>
+        <div style={{padding: "10px", background: "#444", color: "#fff", fontSize: "30px", marginRight: "1%", width: "25%", display: "flex", justifyContent: "center", borderRadius: "50px"}}>
           {days}
-          <span>&nbsp;hari</span>
+          <span style={{textTransform: "uppercase", color: "#999", fontSize: "20px", display: "flex", alignItems: "center"}}>&nbsp;hari</span>
         </div>
-        <div>
+        <div style={{padding: "10px", background: "#444", color: "#fff", fontSize: "30px", marginRight: "1%", width: "25%", display: "flex", justifyContent: "center", borderRadius: "50px"}}>
           {hours}
-          <span>&nbsp;jam</span>
+          <span style={{textTransform: "uppercase", color: "#999", fontSize: "20px", display: "flex", alignItems: "center"}}>&nbsp;jam</span>
         </div>
-        <div>
+        <div style={{padding: "10px", background: "#444", color: "#fff", fontSize: "30px", marginRight: "1%", width: "25%", display: "flex", justifyContent: "center", borderRadius: "50px"}}>
           {minutes}
-          <span>&nbsp;menit</span>
+          <span style={{textTransform: "uppercase", color: "#999", fontSize: "20px", display: "flex", alignItems: "center"}}>&nbsp;menit</span>
         </div>
-        <div>
+        <div style={{padding: "10px", background: "#444", color: "#fff", fontSize: "30px", marginRight: "1%", width: "25%", display: "flex", justifyContent: "center", borderRadius: "50px"}}>
           {seconds}
-          <span>&nbsp;detik</span>
+          <span style={{textTransform: "uppercase", color: "#999", fontSize: "20px", display: "flex", alignItems: "center"}}>&nbsp;detik</span>
         </div>
       </div>
     );
