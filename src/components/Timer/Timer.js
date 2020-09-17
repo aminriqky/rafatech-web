@@ -61,7 +61,7 @@ class Timer extends Component {
       return <div style={{fontSize: "20px", color: "rgb(126, 49, 49)", border: "1px solid rgb(126, 49, 49)", padding: "20px"}}>Acara Telah Berlangsung</div>;
     }
     return (
-      <div style={{fontSize: "20px", display: "flex", fontSize: "20px", justifyContent: "center"}}>
+      <div style={{fontSize: "20px", display: "flex", justifyContent: "center"}}>
         <div style={{padding: "10px", background: "#444", color: "#fff", fontSize: "30px", marginRight: "1%", width: "25%", display: "flex", justifyContent: "center", borderRadius: "50px"}}>
           {days}
           <span style={{textTransform: "uppercase", color: "#999", fontSize: "20px", display: "flex", alignItems: "center"}}>&nbsp;hari</span>
