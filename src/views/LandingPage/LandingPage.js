@@ -45,8 +45,8 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title} style={{borderRadius: "50px", background: "rgba(255,255,255, 0.2)" , padding: "10px", width: "90%"}}><center>RAFATECH 2020</center></h1>
-              <h4 style={{borderRadius: "50px", background: "rgba(255,255,255, 0.2)" , padding: "10px", width: "90%"}}>
+              <h1 className={classes.title} style={{borderRadius: "50px", background: "rgba(255,255,255, 0.2)" , padding: "10px", width: "100%"}}><center>RAFATECH 2020</center></h1>
+              <h4 style={{borderRadius: "50px", background: "rgba(255,255,255, 0.2)" , padding: "10px", width: "100%"}}>
                 <center>
                 Innovative Solution to Develop Smart City for Better Future
                 </center>

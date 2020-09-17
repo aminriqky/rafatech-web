@@ -25,13 +25,13 @@ export default function TeamSection() {
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
-            <img src={require('../../../assets/img/1.jpeg')} alt="" width="360px"/>
+            <img src={require('../../../assets/img/1.jpeg')} alt="" width="300px"/>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
-            <img src={require('../../../assets/img/2.jpeg')} alt="" width="360px"/>
+            <img src={require('../../../assets/img/2.jpeg')} alt="" width="300px"/>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
-            <img src={require('../../../assets/img/3.jpeg')} alt="" width="360px"/>
+            <img src={require('../../../assets/img/3.jpeg')} alt="" width="300px"/>
           </GridItem>
         </GridContainer>
       </div>

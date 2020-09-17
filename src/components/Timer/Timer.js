@@ -62,21 +62,21 @@ class Timer extends Component {
     }
     return (
       <div style={{fontSize: "20px", display: "flex", justifyContent: "center"}}>
-        <div style={{padding: "10px", background: "#444", color: "#fff", fontSize: "30px", marginRight: "1%", width: "25%", display: "flex", justifyContent: "center", borderRadius: "50px"}}>
+        <div style={{padding: "10px", background: "#444", color: "#fff", fontSize: "135%", marginRight: "1%", width: "25%", display: "flex", justifyContent: "center", borderRadius: "50px"}}>
           {days}
-          <span style={{textTransform: "uppercase", color: "#999", fontSize: "20px", display: "flex", alignItems: "center"}}>&nbsp;hari</span>
+          <span style={{textTransform: "uppercase", color: "#999", fontSize: "60%", display: "flex", alignItems: "center"}}>&nbsp;hari</span>
         </div>
-        <div style={{padding: "10px", background: "#444", color: "#fff", fontSize: "30px", marginRight: "1%", width: "25%", display: "flex", justifyContent: "center", borderRadius: "50px"}}>
+        <div style={{padding: "10px", background: "#444", color: "#fff", fontSize: "135%", marginRight: "1%", width: "25%", display: "flex", justifyContent: "center", borderRadius: "50px"}}>
           {hours}
-          <span style={{textTransform: "uppercase", color: "#999", fontSize: "20px", display: "flex", alignItems: "center"}}>&nbsp;jam</span>
+          <span style={{textTransform: "uppercase", color: "#999", fontSize: "60%", display: "flex", alignItems: "center"}}>&nbsp;jam</span>
         </div>
-        <div style={{padding: "10px", background: "#444", color: "#fff", fontSize: "30px", marginRight: "1%", width: "25%", display: "flex", justifyContent: "center", borderRadius: "50px"}}>
+        <div style={{padding: "10px", background: "#444", color: "#fff", fontSize: "135%", marginRight: "1%", width: "25%", display: "flex", justifyContent: "center", borderRadius: "50px"}}>
           {minutes}
-          <span style={{textTransform: "uppercase", color: "#999", fontSize: "20px", display: "flex", alignItems: "center"}}>&nbsp;menit</span>
+          <span style={{textTransform: "uppercase", color: "#999", fontSize: "60%", display: "flex", alignItems: "center"}}>&nbsp;menit</span>
         </div>
-        <div style={{padding: "10px", background: "#444", color: "#fff", fontSize: "30px", marginRight: "1%", width: "25%", display: "flex", justifyContent: "center", borderRadius: "50px"}}>
+        <div style={{padding: "10px", background: "#444", color: "#fff", fontSize: "135%", marginRight: "1%", width: "25%", display: "flex", justifyContent: "center", borderRadius: "50px"}}>
           {seconds}
-          <span style={{textTransform: "uppercase", color: "#999", fontSize: "20px", display: "flex", alignItems: "center"}}>&nbsp;detik</span>
+          <span style={{textTransform: "uppercase", color: "#999", fontSize: "60%", display: "flex", alignItems: "center"}}>&nbsp;detik</span>
         </div>
       </div>
     );
