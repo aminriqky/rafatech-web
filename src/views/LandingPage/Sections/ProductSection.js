@@ -3,7 +3,6 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 import moment from 'moment'
-import "../../../components/Timer/styles.css";
 import Timer from "../../../components/Timer/Timer.js";
 
 // @material-ui/icons
