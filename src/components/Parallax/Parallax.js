@@ -52,7 +52,7 @@ export default function Parallax(props) {
       }}
     >
       {children}
-      <video autoplay="autoplay" width="1560" loop style={{position:"absolute"}}>
+      <video autoplay="autoplay" playsinline muted width="1560" loop style={{position:"absolute"}}>
         <source src={require('../../assets/img/Presentation1.mp4')} type="video/mp4" />
       </video>
     </div>

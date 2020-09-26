@@ -18,7 +18,7 @@ import InfoArea from "components/InfoArea/InfoArea.js";
 import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 
 const useStyles = makeStyles(styles);
-const end = moment("20201017 08:30:00", "YYYYMMDD HH:mm:ss");
+const end = moment("20201017 08:00:00", "YYYYMMDD HH:mm:ss");
 const timeLeft = moment(end.diff(moment(), true));
 const startDate = new Date().getTime() + Math.round(timeLeft);
 
